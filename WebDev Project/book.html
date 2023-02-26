@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="javascript.js"></script>
+	<title>Restaurant Menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<img src = "Logo.png" height="15%" width="15%">
+		<h1 style="font-size:300%">Never Trust Your Chef</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="book.html">Book a Table</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<center>
+		<form>
+			<label for="Name">Name:     </label>
+			<input id="name" type="text" onfocus="document.getElementById('name').backgroundColor=wheat"  onblur="document.getElementById('name').backgroundColor=white"><br>
+
+
+			<label for="phoneno">Phone no: </label>
+			<input id="phoneno" type="number" onfocus="document.getElementById('phoneno').backgroundColor=wheat"  onblur="document.getElementById('phoneno').backgroundColor=white"><br>
+
+
+			<label for="email">Email:    </label>
+			<input id="email" type="email" onfocus="document.getElementById('email').backgroundColor=wheat"  onblur="document.getElementById('email').backgroundColor=white"><br>
+
+
+			<lable for="seats">No of Seats: </lable>
+			<input id="seats" type="number" onfocus="document.getElementById('seats').backgroundColor=wheat"   onblur="document.getElementById('seats').backgroundColor=white"><br>
+
+
+			<label for="loc">Location:   </label>
+			<select id="loc">
+			<option id="loc" name="Ghaziabad">Ghaziabad</option>
+			<option id="loc" name="Mumbai">Mumbai</option>
+			<option id="loc" name="Delhi">Delhi</option>
+			<option id="loc" name="Kochi">Kochi</option>
+			<option id="loc" name="Chennai">Chennai</option>
+			<option id="loc" name="Bangalore">Bangalore</option>
+			<option id="loc" name="Hyderabad">Hyderabad</option>
+			</select>
+			<br>
+			<input type="submit" value="Submit" id="submit" onclick="submitkro()">
+			<script src="javascript.js"></script>
+
+		</form>
+		</center>
+		
+	</main>
+</body>
+</html>
